@@ -492,15 +492,222 @@ footer::after {
         position: absolute;
         bottom: -30px;
     }
+}
 
 @media screen and (max-width: 768px) {
-    
+    h1, h2, h3 {
+        font-size: 2.5rem;
+    }
+
+    /* Section 01   Inverted world */
+
+    .container {
+        max-width: 768px;
+    }
+
+    #section-inverted-world .section-texts {
+        padding-left: 10px;
+    }    
+
+    #section-inverted-world .invert-element {
+        width: 45%;
+    }
+
+    /* Section 02   Stranger Things Trailer */
+
+    #section-stranger-things-trailer .video-frame iframe {
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #section-stranger-things-trailer .section-texts {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Section 03   Stranger Things Gallery */ 
+
+    #section-stranger-things-gallery {
+        background: none;
+    }
+
+    #section-stranger-things-gallery h2 {
+        max-width: 768px;
+        padding: 10px;
+
+        text-align: center;
+    }
+
+    #section-stranger-things-gallery .gallery-container {
+        width: 748px;
+        height: 748px;
+    }
+
+    /* Section 04   Dungeons & Dragons form */
+
+    #section-form .form-content {
+        display: block;
+    }
+
+    #section-form .form-container::after {
+        content: none;
+    }
+
+    /* Footer */
+
+    footer::before, 
+    footer::after {
+        content: '';
+        width: 150px;
+        height: 125px;
+        background: url("../images/footer/tape.svg") no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: -30px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-    
+    p {
+        font-size: 1.5rem;
+    }
+
+    h1, h2, h3 {
+        font-size: 4rem;
+    }
+
+    /* Section 01   Inverted world */
+
+    .container {
+        max-width: 1024px;
+    }
+
+    #section-inverted-world .section-texts {
+        padding-left: 10px;
+    }    
+
+    #section-inverted-world .invert-element {
+        width: 45%;
+    }
+
+    /* Section 02   Stranger Things Trailer */
+
+    #section-stranger-things-trailer .video-frame iframe {
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #section-stranger-things-trailer .section-texts {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Section 03   Stranger Things Gallery */ 
+
+    #section-stranger-things-gallery h2 {
+        max-width: 1024px;
+        padding: 10px;
+
+        text-align: center;
+    }
+
+    #section-stranger-things-gallery .gallery-container {
+        width: 1024px;
+        height: 1024px;
+    }
+
+    /* Section 04   Dungeons & Dragons form */
+
+    #section-form .form-container::after {
+        content: none;
+    }
+
+    /* Footer */
+
+    footer::before, 
+    footer::after {
+        content: '';
+        width: 250px;
+        height: 175px;
+        background: url("../images/footer/tape.svg") no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: -30px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-    
+    p {
+        font-size: 1.7rem;
+    }
+
+    h1, h2, h3 {
+        font-size: 4rem;
+    }
+
+    /* Section 01   Inverted world */
+
+    .container {
+        max-width: 1024px;
+    }
+
+    #section-inverted-world .section-texts {
+        padding-left: 10px;
+    }    
+
+    #section-inverted-world .invert-element {
+        width: 45%;
+    }
+
+    /* Section 02   Stranger Things Trailer */
+
+    #section-stranger-things-trailer .video-frame iframe {
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #section-stranger-things-trailer .section-texts {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Section 03   Stranger Things Gallery */ 
+
+    #section-stranger-things-gallery h2 {
+        max-width: 1024px;
+        padding: 10px;
+
+        text-align: center;
+    }
+
+    #section-stranger-things-gallery .gallery-container {
+        width: 1024px;
+        height: 1024px;
+    }
+
+    /* Section 04   Dungeons & Dragons form */
+
+    #section-form .form-container::after {
+        content: none;
+    }
+
+    label {
+        font-size: 1.7rem;
+    }
+
+    /* Footer */
+
+    footer::before, 
+    footer::after {
+        content: '';
+        width: 250px;
+        height: 200px;
+        background: url("../images/footer/tape.svg") no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: -30px;
+    }
 }
